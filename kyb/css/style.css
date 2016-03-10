@@ -1,0 +1,571 @@
+/*科研帮首页-登陆*/
+.head span{
+    display: inline-block;
+}
+.head-ban{
+    width: 1200px;
+    height: 40px;
+    margin: 0 auto;
+    border-bottom: 1px #DDDDDD solid;
+    background-color: #F7F7F7;
+}
+.head-con{
+    width: 1200px;
+    height: 96px;
+    margin: 0 auto;
+    line-height: 96px;
+    background: #F7F7F7 url("../images/KYB.png") no-repeat 100px center;
+}
+.ban{
+    font-size: 15px;
+    line-height: 40px;
+}
+.ban-left{
+    width:200px;
+    padding-left:100px ;
+}
+.ban-left a{
+    color:#ff1414;
+}
+.ban-right{
+    color:#565656;
+    width:800px;
+    text-align: right;
+}
+.con{
+    width: 1100px;
+    height: 96px;
+    position: relative;
+}
+.search-box{
+    width: 473px;
+    height: 33px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+    border-bottom: 1px #CDCDCD solid;
+    border-top: 1px #CDCDCD solid;
+    border-left: 1px #CDCDCD solid;
+    position: absolute;
+    top: 30px;
+    right: 100px;
+}
+.search-btn{
+    width: 100px;
+    height: 34px;
+    display: inline-block;
+    cursor: pointer;
+    border: none;
+    background: url("../images/search-btn.png") no-repeat center;
+    position: absolute;
+    right:0;
+    top:30px;
+}
+
+/*banner购物信息*/
+.bar{
+    width: 1200px;
+    margin: 0 auto;
+    background-color: #108DF9;
+}
+
+.bar ul:after{
+    content: "";
+    display: block;
+    visibility: hidden;
+    clear: both;
+}
+.bar ul li{
+    display: block;
+    float: left;
+    line-height: 40px;
+    text-align: center;
+}
+.bar ul li a{
+    color: #ffffff;
+    font-size: 18px;
+}
+.bar ul{
+    margin: 0 100px;
+}
+.bar ul li:hover{
+    background-color: #0F76D2;
+}
+.sort{
+       width: 165px;
+       height: 40px;
+ }
+ .bar-item{
+     width: 130px;
+     height: 40px;
+ }
+ .checked{
+     background-color: #0F76D2;
+ }
+.show-con{
+    width: 1200px;
+    margin: 0 auto;
+    background-color: #F7F7F7;
+    position: relative;
+}
+
+.more-con{
+    display: inline-block;
+    margin-left: 100px;
+    border-bottom: 2px #108DF9 solid;
+    border-left: 2px #108DF9 solid;
+    border-right: 2px #108DF9 solid;
+}
+.more-item{
+    display: block;
+    height: 48px;
+    width: 161px;
+    line-height: 48px;
+    text-indent: 15px;
+    border-bottom: 1px #cbcbcb dashed;
+}
+.more-item a{
+    font-size: 16px;
+    color: #232323;
+}
+.banner-con{
+    display: inline-block;
+    position: absolute;
+    top: 20px;
+    margin-left: 20px;
+}
+.banner-img{
+    width: 560px;
+    height: 275px;
+    overflow:hidden;
+}
+.banner-img a{
+    text-decoration: none;
+    cursor: pointer;
+}
+.banner-btn{
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    margin-left: -50px;
+}
+.banner-btn a{
+    display: inline-block;
+    width: 31px;
+    height: 10px;
+    margin-right: 4px;
+    background: #d3d3d3;
+}
+a.on-show{
+    background: #EB6878;
+}
+.trad{
+    display: inline-block;
+    width: 245px;
+    height: 274px;
+    position: absolute;
+    top: 19px;
+    right: 100px;
+    border: 1px #0F76D2 solid;
+}
+.trad-step{
+    height: 80px;
+}
+.trad-info{
+    height: 64px;
+    margin: 10px;
+    line-height: 20px;
+}
+
+.trad-btn{
+    height: 110px;
+    text-align: center;
+    line-height: 50px;
+}
+.pub{
+    width: 205px;
+    height: 36px;
+    border: none;
+    color: #ffffff;
+    font-size: 18px;
+    border-radius: 5px;
+    background: -webkit-gradient(linear,0% 0%,0% 100%,from(#F94852),to(#D50B09));
+    background: -moz-linear-gradient(top,#F94852,#D50B09);
+}
+.landing,.reg{
+    width: 70px;
+    height: 30px;
+    border: none;
+    border-radius: 3px;
+    color: #ffffff;
+    font-size: 18px;
+    background: #0F76D2;
+    margin: 15px;
+    cursor: pointer;
+}
+/*商品陈列*/
+.goods{
+    width: 1200px;
+    margin: 0 auto;
+    padding: 20px 0;
+    background-color: #F7F7F7;
+}
+.h-title{
+    font-size:30px ;
+    text-align: center;
+}
+.underline{
+    width: 1000px;
+    height: 5px;
+    background-color: #DCDCDC;
+    margin: 5px auto;
+}
+.goods-c{
+    text-align: center;
+    margin-top: 30px;
+}
+.goods-c-l,.goods-c-r{
+    display: inline-block;
+    width: 500px;
+}
+.buy{
+    width: 106px;
+    height: 36px;
+    background-color: #FFB647;
+    color: #ffffff;
+    font-size: 18px;
+    line-height: 36px;
+}
+.sale{
+    width: 106px;
+    height: 36px;
+    background-color: #FF6547;
+    color: #ffffff;
+    font-size: 18px;
+    line-height: 36px;
+}
+.goods-tab{
+    width: 490px;
+    margin-top: 5px;
+    text-align: left;
+}
+thead{
+    background-color: #F0F0F0;
+    color: #191919;
+}
+tr{
+    height: 46px;
+    border: 1px solid #DCDCDC;
+}
+td{
+    padding-left: 10px;
+    font-size: 16px;
+}
+
+.goods-name>a{
+    color: #0F8AF2;
+}
+.goods-name>a:hover{
+    color: #C91618;
+}
+/*链接区域*/
+.links{
+    width: 1200px;
+    margin:0 auto;
+    padding: 20px 0;
+    background-color: #E7E7E7;
+    display: flex;
+    justify-content: space-around;
+}
+.links-ul>li{
+    text-indent: 30px;
+    color: #7F7F7F;
+    padding: 5px;
+    font-size: 15px;
+}
+.footer{
+    width: 1200px;
+    margin: 0 auto;
+    background-color: #E7E7E7;
+}
+.footer>p{
+    text-align: center;
+}
+.self{
+    width: 1000px;
+    margin: 0 auto;
+    padding: 25px 0;
+    border-top: 1px solid #8f8f8f;
+}
+.friend{
+    width: 1000px;
+    margin: 0 auto;
+    padding: 15px 0;
+    border-top: 1px solid #DCDCDC;
+    border-bottom: 1px solid #DCDCDC;
+}
+.copy{
+    padding: 15px 0 40px;
+}
+
+
+/*登录层*/
+#mask{
+    background-color: #000000;
+    opacity: 0.5;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+}
+#land{
+    width: 350px;
+    background: #DCDCDC;
+    position: fixed;
+    left: 500px;
+    top: 100px;
+    display: none;
+    z-index: 9999;
+}
+.land-close{
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-color: #565656;
+    border-radius: 30px;
+    border: 5px solid #ffffff;
+    position: absolute;
+    right: -20px;
+    top: -20px;
+}
+.close{
+    width: 18px;
+    height: 3px;
+    background-color: #ffffff;
+    position: absolute;
+    top: 14px;
+    left: 6px;
+}
+
+.close-right{
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+}
+.close-left{
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+}
+.land-head{
+    font-size: 20px;
+    color: #ffffff;
+    text-indent: 20px;
+    height: 50px;
+    line-height: 50px;
+    background-color: #0F76D2;
+}
+.land-body-image{
+    height: 100px;
+    text-align: center;
+    line-height: 100px;
+}
+.form-box{
+    display: block;
+    width: 210px;
+    height: 50px;
+    padding: 0 20px;
+    font-size: 20px;
+    border: 1px solid #8f8f8f;
+}
+.land-name{
+    margin: 0 auto;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.land-key{
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    margin: -1px auto 0;
+}
+.land-btn{
+    display: block;
+    width: 250px;
+    height: 50px;
+    margin: 20px auto 15px;
+    background-color: #0F76D2;
+    font-size: 20px;
+    color: #ffffff;
+    border: none;
+}
+.keep-state{
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+}
+#keep-state{
+    text-align: center;
+    margin-left: 50px;
+}
+#for-help{
+    float: right;
+    margin-right: 50px;
+}
+
+.land-body>p{
+    text-align: center;
+    padding: 0 0 5px;
+}
+.land-body a{
+    color: #0F76D2;
+}
+.land-body a:hover{
+    color: #D50B09;
+}
+
+/***supply页面部分样式***/
+.supply-con{
+    width: 740px;
+    position: relative;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    margin-left: 100px;
+}
+.supply-head{
+    height: 50px;
+    background-color: #F0F0F0;
+    border-top: 2px solid #0F8AF2;
+    line-height: 50px;
+}
+.supply-head>span{
+    padding-left: 20px;
+    margin-right: 60px;
+    font-size: 16px;
+}
+.sup-search-box{
+    width: 140px;
+    height: 19px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+    border-bottom: 1px #CDCDCD solid;
+    border-top: 1px #CDCDCD solid;
+    border-left: 1px #CDCDCD solid;
+    position: absolute;
+    top: 36px;
+    right: 100px;
+}
+.sup-search-btn{
+    width: 50px;
+    height: 20px;
+    display: inline-block;
+    cursor: pointer;
+    border: none;
+    background: url("../images/sup-search.png") no-repeat center;
+    position: absolute;
+    right:60px;
+    top:36px;
+}
+.goods-items{
+    background-color: #F0F0F0;
+    margin-top: 10px;
+    padding: 20px 0;
+}
+.goods-items > div{
+    display: inline-block;
+}
+.goods-left{
+    width: 68%;
+    border-right: 1px dashed #8f8f8f;
+}
+.goods-name{
+    color: #108DF9;
+    font-size: 25px;
+    padding: 0 20px;
+}
+.push-time{
+    font-size: 12px;
+    color: #999999;
+}
+.second-p{
+    color: #272727;
+    padding: 10px 20px;
+    font-size: 16px;
+}
+.goods-price{
+    color: #D60D0B;
+    padding-right: 30px;
+}
+.third-p{
+    color: #272727;
+    padding: 10px 20px;
+}
+.goods-right{
+    width: 30%;
+    text-align: center;
+    position: relative;
+    top: -30px;
+
+}
+.goods-right>p{
+    padding: 10px 0;
+    color: #999999;
+}
+.bussiness{
+    width: 140px;
+    height: 40px;
+    background-color: #FF6647;
+    border: none;
+    color: #ffffff;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+
+.bus-down{
+    width: 245px;
+    border: 1px solid #D4D4D4;
+    position: absolute;
+    right: 100px;
+    top: 315px;
+}
+.bus-down>span{
+    display: block;
+}
+.bus-down-head{
+    height: 29px;
+    text-indent: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    color: #108DF9;
+    line-height: 30px;
+    background-color: #F0F0F0;
+    border-bottom: 1px solid #D4D4D4;
+}
+.bus-down-items {
+    padding-top: 10px;
+    border-bottom: 1px dashed  #D4D4D4;
+}
+.bus-down-items>p{
+    padding-bottom: 5px;
+    padding-left: 20px;
+    color: #B8B8B8;
+}
+.down-place{
+    font-size: 16px;
+    color: #575757;
+}
+.down-goods>a{
+    color: #108DF9;
+    font-size: 16px;
+}
+/***求购信息部分样式***/
+.talk-price{
+    width: 140px;
+    height: 40px;
+    background-color: #FEB647;
+    border: none;
+    color: #ffffff;
+    font-size: 20px;
+    cursor: pointer;
+}
